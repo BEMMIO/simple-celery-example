@@ -1,5 +1,13 @@
-HOW-TO : https://github.com/celery/django-celery-beat,
+HOW-TO : 
+
+https://github.com/celery/django-celery-beat
+
 https://medium.com/the-andela-way/crontabs-in-celery-d779a8eb4cf
+
+https://docs.celeryproject.org/en/stable/userguide/periodic-tasks.html
+
+
+
 
 
 
