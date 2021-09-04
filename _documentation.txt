@@ -18,3 +18,16 @@ STEP 2.
 STEP 3.
 	
 	simple users scripts
+
+
+
+-----------------------------------------------------------------------
+
+with celery :
+	- perform complex background tasks
+
+w celery-beats :
+	- schedule tasks to be performed in a given time-interval
+	- pass cronjob (management commands to be executed by celery-beats)
+	eg. send emails to users at a given time,
+		delete in-active users after N days or months etc.
