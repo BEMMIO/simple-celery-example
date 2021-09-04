@@ -1,0 +1,20 @@
+# About example project.
+
+- use celery beats to delete inactive users (every 30 min)
+
+- send emails to active users every day (morning at 6:30 am) 
+
+
+STEP 1.
+	
+	configure & test celery tasks (done)
+
+
+STEP 2.
+	
+	configure & assign tasks to celery-beats (Scheduled tasks) (done)
+
+
+STEP 3.
+	
+	simple users scripts

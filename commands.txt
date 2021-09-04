@@ -1,0 +1,10 @@
+HOW-TO : https://github.com/celery/django-celery-beat
+
+# celery start 
+
+celery -A config.celery worker --pool=solo -l info
+
+
+# celery beats
+
+celery -A config beat -l INFO
