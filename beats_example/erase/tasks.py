@@ -4,13 +4,14 @@ from config.celery import app
 
 
 @app.task(name='test-celery-func')
+# celery perform computational tasks
 def test_celery_func():
 	for i in range(80):
 		print(i)
 	return " BEATS COMMING YEEH -:) "
 
 
-# simple practical example.
+# simple practical scheduled tasks example.
 
 from django.contrib.auth.models import User
 
