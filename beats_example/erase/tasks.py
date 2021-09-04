@@ -27,3 +27,10 @@ def number_of_active_users():
 
 
 
+@app.task
+def delete_all_inactive_users():
+	if users := User._default_manager.filter(is_active=False):
+		count = users.count()
+		users.delete()
+		return "({count}) in-active users deleted from db".format(count=count)
+
